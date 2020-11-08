@@ -1,0 +1,441 @@
+/* general css */
+body {
+  font-family: "Roboto", sans-serif;
+ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+  line-height: 2.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #842c68;
+  text-decoration: none;
+}
+
+
+/* navbar css */
+
+/* to take away default bootstrap col paddings */
+.done{padding-left:0;
+padding-right: 0 ;}
+
+.purple-btn {
+  background-color: #842c68;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* to overide the default bootstrap color you have to use this hierarchical selection method */
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #842c68;
+  text-decoration: underline;
+}
+
+/* css for first section with pic bg */
+.search {
+  background: linear-gradient(81.1deg,
+      rgba(0, 0, 0, 0.316) 1.95%,
+      rgba(244, 244, 244, 0) 96.31%,
+      rgba(255, 255, 255, 0) 96.31%),
+    url(../images/background-1.jpg);
+
+  background-color: linear-gradient(81.1deg,
+      rgba(0, 0, 0, 0.316) 1.95%,
+      rgba(244, 244, 244, 0) 96.31%,
+      rgba(255, 255, 255, 0) 96.31%);
+  width: 100%;
+  height: 510px;
+  background-position: center;
+  /* Center the image */
+  background-size: cover;
+}
+
+.main-heading {
+  padding: 11% 54.5% 0% 7%;
+}
+
+.box-one {
+  padding: 1% 20% 1% 2%;
+  margin-left: 7%;
+  font-weight: 300;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.box-two {
+  background-color: #842c68;
+  padding: 0.75% 1.5% 1%;
+}
+
+.search-bar{
+  padding-top: 2%;
+}
+
+.search-button {
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border: 0px;
+  border-radius: 2px;
+}
+
+.fa-search {
+  color: #fff;
+}
+
+/* css for categories section */
+.hr-padding{ padding:2% 4% 0}
+
+.same-line {
+  display: inline;
+}
+
+.stay {
+  float: right;
+  margin-top: 1%;
+}
+
+#categories-section .container-fluid {
+  padding: 3% 7.5%;
+}
+
+.most-btns {
+  border-color: #842c68;
+  color: #842c68;
+  font-size: 1rem;
+  border-radius: 2px;
+}
+
+#categories-section .most-btns {
+  width: 100%;
+}
+
+.cat-img {
+  width: 100%;
+  object-fit:cover;
+ height:100%;
+}
+
+.spec {
+  height: 16.25rem;
+}
+
+
+#categories-section .row {
+  padding: 3%;
+}
+
+.button-row {
+  padding: 8% 10%;
+}
+
+
+
+/* css for collection section */
+#COLLECTION {
+  background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+    url(https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-color: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63));
+  width: 100%;
+  height: 510px;
+  background-position: center;
+  /* Center the image */
+  background-size: cover;
+}
+
+.oone{padding-right: 0;}
+
+.small {
+  background: rgba(132, 44, 104, 0.73);
+  width: 40%;
+  height: 75%;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  padding: 5%;
+  float: right;
+  margin-top: 7%;
+}
+
+.small p {
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding: 2% 10%;
+}
+
+
+/* css for clearance-sales section */
+hr {
+  width: 75%;
+  border: 1px solid rgba(0, 0, 0, 0.28);
+  border-bottom: none;
+  margin: 2% auto;
+}
+
+.main-row{padding:0 3%;}
+
+#CLEARANCE-SALES h2 {
+  padding: 3%;
+  text-align: center;
+}
+
+.discount {
+  z-index: 1;
+  width: fit-content;
+  height: fit-content;
+  background-color: #4CB3AA;
+  padding: 2%;
+  position: relative;
+  top: 5%;
+  right: 12%;
+}
+
+.discount p {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+#CLEARANCE-SALES img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3%;
+  object-fit: cover;
+}
+
+.sales {
+  padding: 0 3% 2%;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#CLEARANCE-SALES .col-6 {
+  padding: 0;
+}
+
+#CLEARANCE-SALES i {
+  color: rgba(0, 0, 0, 0.5);
+  float: right;
+  padding-left: 7%;
+}
+
+#CLEARANCE-SALES i:hover {
+  color: #842c68;
+}
+
+#CLEARANCE-SALES p {
+  margin-bottom: 0;
+}
+
+#CLEARANCE-SALES button {
+  margin-top: 1rem;
+}
+
+
+/* css for shop-now section */
+#SHOP-NOW {
+  background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)),
+    url("../images/chase-jiggliemon-wilson-a3YgkIiQpKk-unsplash.jpg");
+  background-color: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44));
+  width: 100%;
+  height: 510px;
+  background-position: center;
+  /* Center the image */
+  background-size: cover;
+  color: #fff;
+}
+
+#SHOP-NOW .btn {
+  color: #fff;
+  background: #842c68;
+  border-radius: 5px;
+  padding: 2%;
+  margin-top: 5%;
+}
+
+.shop-now {
+  padding: 15% 30%;
+  text-align: center;
+}
+
+
+/* css for question section */
+.question-imgs {
+  filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+#question .container-fluid {
+  padding: 3% 3% 0;
+}
+
+#question .col-12 {
+  margin: 15% 20% 15% 10%;
+}
+
+.col-12 p {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+
+/* css for cta section */
+#cta {
+  background: linear-gradient(106.19deg,
+      rgba(196, 196, 196, 0.5) 0.67%,
+      rgba(196, 196, 196, 0.495) 40.19%,
+      rgba(196, 196, 196, 0) 97.94%);
+  padding: 5% 0;
+}
+
+#cta span {
+  color: #842c68;
+}
+
+.column-2{padding-left: 0;}
+
+.paragraphs p {
+  font-weight: 300;
+  line-height: 1.1rem;
+}
+
+.paragraphs {
+  padding: 8% 0 3%;
+}
+
+.tick {
+  color: #842c68;
+}
+
+.cta-btn {
+  background-color: #000;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+
+.flex-container{display:flex;
+flex-flow: row nowrap;
+justify-content:center;
+align-items: center;
+}
+
+.item-1{flex:0 1 10%;}
+
+.item-2{flex:0 1 90%;
+text-align: left;}
+
+.item{padding: 2%;}
+
+.cta-two {
+  padding-top: 3%;
+}
+
+
+/* css for cta-2 section */
+#cta-2 .rown {
+  padding: 3% 5% 3% 10%;
+}
+
+.cta-22 {
+  padding: 3% 30% 3% 2%;
+  border: solid 1px #000;
+}
+
+.box-three {
+  background-color: #842c68;
+  padding: 3% 5%;
+  border: solid 1px #000;
+  color: #fff;
+}
+
+#cta-2 p {
+  font-weight: 500;
+}
+
+/* css to take away horizontal scrollbar due to default bootstrap row margins */
+.main-row, .rown{margin-left: 0;
+margin-right: 0;}
+
+
+/* media queries
+/* TITLE SECTION */
+@media (max-width:640px){.main-heading h1{font-size: 2rem;}
+.search, #COLLECTION ,#SHOP-NOW{height:400px}}
+@media(max-width:992px){.search-2 input{padding-top:1.2%}}
+
+/* CATEGORIES SECTION */
+@media (max-width:767.5px){.column,.hr-padding{padding:0 12%}
+.same-line{display:block;}
+.stay{float:none;}}
+
+/* COLLECTION SECTION */
+@media (max-width:1074px) {#COLLECTION h1{font-size: 2rem;}}
+@media (max-width:718px) {#COLLECTION h1 {display: none;}
+#COLLECTION .container-fluid{padding:5% 2.5%}
+.small{float: none;}}
+
+/* CLEARANCE-SALES SECTION */
+@media(min-width:768px) and (max-width:991.5px){.sales{padding-left:8%;}
+.sales-2{margin:1% auto}}
+@media (max-width:767.5px){.sales{padding:1% 20%;}}
+
+
+/* SHOP-NOW SECTION */
+@media (max-width:718px) {.shop-now{padding:20% 2.5%;}}
+
+/* QUESTION SECTION */
+@media (max-width:992px){#question .col-12{text-align: center;
+  margin:5% auto;}}
+
+/* CTA SECTION */
+@media (min-width:557px) and (max-width:991.5px){.cta-two{padding:3% 15%}}
+@media (max-width:556px){.cta-two{padding:3% 8%}}
+
+/* CTA-2 SECTION*/
+@media (max-width:992px){.rown-2{padding:5% 0}}
+
+
+/* IPHONE 5SE AND GALAXY FOLD */
+@media(max-width:320px){section{padding-left: 8%;}
+#COLLECTION .container-fluid{padding:0}}
