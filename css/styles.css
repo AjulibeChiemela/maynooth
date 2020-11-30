@@ -365,7 +365,7 @@ align-items: center;
 .item-2{flex:0 1 90%;
 text-align: left;}
 
-.item{padding: 2%;}
+.item{margin: 0 8% 0 ;}
 
 .cta-two {
   padding-top: 3%;
