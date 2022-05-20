@@ -175,7 +175,7 @@ padding-right: 0 ;}
   background-size: cover;
 }
 
-.oone{padding-right: 0;}
+.oone {padding-right: 0;}
 
 .small {
   background: rgba(132, 44, 104, 0.73);
@@ -204,7 +204,7 @@ hr {
   margin: 2% auto;
 }
 
-.main-row{padding:0 3%;}
+.main-row {padding:0 3%;}
 
 #CLEARANCE-SALES h2 {
   padding: 3%;
@@ -328,7 +328,7 @@ hr {
   color: #842c68;
 }
 
-.column-2{padding-left: 0;}
+.column-2 {padding-left: 0;}
 
 .paragraphs p {
   font-weight: 300;
@@ -354,18 +354,18 @@ hr {
   margin-top: 2%;
 }
 
-.flex-container{display:flex;
+.flex-container {display:flex;
 flex-flow: row nowrap;
 justify-content:center;
 align-items: center;
 }
 
-.item-1{flex:0 1 10%;}
+.item-1 {flex:0 1 10%;}
 
-.item-2{flex:0 1 90%;
+.item-2 {flex:0 1 90%;
 text-align: left;}
 
-.item{margin: 0 8% 0 ;}
+.item {margin: 0 8% 0 ;}
 
 .cta-two {
   padding-top: 3%;
