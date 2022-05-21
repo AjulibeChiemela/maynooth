@@ -116,7 +116,7 @@ padding-right: 0 ;}
 }
 
 /* css for categories section */
-.hr-padding{ padding:2% 4% 0}
+.hr-padding { padding:2% 4% 0}
 
 .same-line {
   display: inline;
@@ -394,8 +394,10 @@ text-align: left;}
 }
 
 /* css to take away horizontal scrollbar due to default bootstrap row margins */
-.main-row, .rown{margin-left: 0;
-margin-right: 0;}
+.main-row, .rown {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 /* media queries
